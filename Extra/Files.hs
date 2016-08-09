@@ -31,7 +31,7 @@ import		 Data.List
 import		 Data.Maybe
 import		 Extra.Misc
 import		 System.Unix.Directory
-import		 System.Directory
+import		 System.Directory hiding (isSymbolicLink)
 import		 System.IO.Error hiding (try, catch)
 import		 System.Posix.Files
 
